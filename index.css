@@ -1,0 +1,40 @@
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 16px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 16px;
+    background-color:#F5F5DC;
+    color:#664433
+<b = "b1" > background-color:chocolate </b>
+}
+
+body > section, main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+main > section {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 12px;
+}
+
+section > header, section > footer, article {
+    padding: 12px;
+    border-radius: 8px;
+}
+section > header, section > footer{
+    background-color:#664433;
+    color: #F5F5DC;
+}
