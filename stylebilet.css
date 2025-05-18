@@ -1,0 +1,19 @@
+
+body {
+    line-height: 1.5;
+    color: #333;
+    background-color: #C8DBB6;
+    overflow-x: hidden;
+}
+
+main {
+    margin: 0 auto 32px;
+    max-width: 720px;
+}
+
+
+h1 {
+    color: #2E3532;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+}
