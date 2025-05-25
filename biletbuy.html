@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Купибилет.ру</title>
+    <link rel="stylesheet" href="stylebilet.css">
+</head>
+<body>
+    <main>
+        <h1> Вы попали на покупку билетов! </h1>
+        <body>
+            <form id="form" action="">
+                <label for = "Name" > Name: * </label>
+                <input type = "text" name = "Name" placeholder = "Alex", required> 
+                <label for = "Surname" > Surname: * </label>
+                <input type = "text" name = "Surname" placeholder = "Smith", required>
+                <label for = "Age" > Age: </label>
+                <input type = "text" name = "Age" placeholder = "52">
+                <label for = "Number" > Number passport </label>
+                <input type = "text" name = "Nubmer" placeholder = "111111">
+                <label for = "language" > Your language: </label>
+                <select name = "language"> 
+                    <option value = "" > Выберите язык: </option>
+                    <option value = "ru" > Русский </option>
+                    <option value = "en" > English </option>
+                    <div>
+                        <input type = "checkbox" id = "agree1" name = "agree1" checked> 
+                        <label for = "agree1"> Я согласен на обработку своих данных. </label>
+                        </div>
+                <input type = "submit" name = "Submit" onclick="location.href = '404.html';">
+            </form>
+            <footer>
+                <p>НашТур 2025</p>
+                <a href = "https://informatics.ru/" class="mshp" > Связь с разработчиками сайта. </a>
+            </footer>
+    </body>
+</html>

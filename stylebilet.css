@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&&display=swap');
+
+* {
+    font-family: 'Raleway';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("pattern.png");
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.panel {
+    background-color: #FFBE00;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel p {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+}
+
+.panel img {
+    width: 70%;
+    max-width: 200px;
+}
+
+form {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 2px solid #d33109;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+}
+input, select {
+    margin: 5px 0 15px;
+    padding: 8px 10px;
+    border: 2px solid #09a12f;
+    border-radius: 6px;
+}
+fieldset {
+    border: 2px solid #d33109;
+    border-radius: 8px;
+    padding: 15 px;
+}
+legend {
+    font-weight: bold;
+    color: #009afa;
+    padding: 10px;
+
+}
+.submit {
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #7502b8;
+}
+footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 16px;
+    margin-top: 32px;
+}
